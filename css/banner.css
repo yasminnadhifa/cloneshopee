@@ -1,0 +1,71 @@
+.banner{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 5%);
+}
+.left-banner{
+    margin-right: 5px;
+}
+.rolling-banner {
+    width: 815px;
+    border-radius: 2px;
+}
+.right-banner > img {
+    width: 400px;
+    border-radius: 2px;
+    margin-bottom: 5px;
+}
+.bottom-section{
+    width: 1200px;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: flex-start;
+}
+.bottom-section > li{
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+.bottom-section > li:hover > img{
+    width: 43px;
+    margin-bottom: 6px;
+}
+.bottom-section > li > img{
+    width: 45px;
+    margin-bottom: 5px;
+}
+.bottom-section > li > span{
+    margin-bottom: auto;
+}
+.swiper{
+    width: 815px;width: 815px;
+}
+.swiper-button-prev{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    left: 0;
+    display: none;
+}
+.swiper-button-next{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    right: 0;
+    display: none;
+}
+.swiper-button-prev:after, .swiper-button-next:after{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+.swiper:hover > .swiper-button-prev, .swiper:hover > .swiper-button-next{
+    display: flex;
+}
+.swiper-pagination-bullet-active{
+   background-color: #f53d2d; 
+}
+.floating{
+    position: fixed;
+    right: 60px;
+    bottom: 100px;
+}
+
